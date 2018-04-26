@@ -1,0 +1,60 @@
+$bg-color: #424242;
+$hl-color: #2196F3;
+$muted-color: mix(white, $bg-color, 70%);
+$trans-time: 300ms;
+$width: 320px;
+$themeColor: #699;
+$borderColor: #6b717f;
+
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.todoForm {
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+.flex-container {
+    height: 100%;
+    padding-top: 3%;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+}
+.flex-item {
+    background-color: $themeColor;
+    width: 300px;
+    border: 0.5px solid $borderColor;
+    color: white;
+    text-align: center;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+}
+.deleteButton {
+  background: #c69;
+  border-color: #c69;
+
+}
