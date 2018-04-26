@@ -12,7 +12,7 @@ const TodoList = ({list, removeTodo, handleCheckBoxChange}) => {
             <div className="todoItem">
               <div
                 onClick={(e) => {e.preventDefault(); handleCheckBoxChange(todo.id);}}
-                style={ {
+                style={{
                   textDecoration: todo.completed ? 'line-through' : 'none'
                 }}
               >
